@@ -1,0 +1,6 @@
+My scenario required me to create multiple tables to represent the process of student clubs. My design consists of one table for students, one table for the clubs that the students can join, and finally, one table called joined that
+contains the students id and the clubs id, along with the join date and member role to keep track of when students joined their specific clubs and what role they hold. I included the student's name, id, and class year in the
+students table, and then I included the clubID and club name within the club table. For the sql, all the steps were done in order from top to bottom. I started with the creation statements, then moved into the insert statements (which
+by the way, for the insert statements, for the students, you have to put an ID greater than 1, which is also the same for clubID). Class year for Students must be between 2026 and 2029, and the student name has a max of 30 characters.
+Join date and member role in the join table have a max character length of 30, and in the clubs table, there is a max length of 40 characters for each input for club name. So in short, you would just run the commands in the sql
+file from bottom to top, and be sure to follow the constraints or rules listed for certain columns in tables. 
