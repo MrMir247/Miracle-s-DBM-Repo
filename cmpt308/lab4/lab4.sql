@@ -1,3 +1,7 @@
+Name: Miracle Okoli 
+Date: 02/26/2026
+
+I reused my sql code but I also made some edits and changes as well
 
 update Enrollments
 set term = '2026SP'
@@ -98,3 +102,4 @@ LEFT JOIN Enrollments AS e
   AND e.term = '2026SP'
 GROUP BY c.course_id, c.title
 ORDER BY student_count DESC, c.course_id;
+
