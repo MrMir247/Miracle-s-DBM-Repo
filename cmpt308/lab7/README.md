@@ -1,0 +1,4 @@
+For the lab 7 SQL, you first need to execute the create statement to create the account table that we are going to use, be sure though, to run the drop table if exists command (the one posted up before the create command) in order to delete any already existing account tables.
+Next, you need to run the insert statement to add all the required details regarding the accounts table. Next, you have to run the select statement to see the previous results of the account table. Then you must run the transaction and make sure that it's between the Begin
+statement and the commit statement for it to work properly. Next, make sure to run the select again to see the effects of the transaction. Now repeat the transaction and select steps again, but this time, change the commit statement to rollback to see the changes you
+make be undone or rolled back (pun intended)
